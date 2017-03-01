@@ -13,6 +13,10 @@ namespace calderawp\calderawp_api;
 
 
 class boot {
+	
+	protected $api_namespace;
+	
+	protected $version;
 
 	/**
 	 * Constructor for class
